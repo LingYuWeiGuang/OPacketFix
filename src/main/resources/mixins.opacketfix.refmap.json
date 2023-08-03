@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "op/wawa/opacketfix/mixins/MixinEntityLivingBase": {
+      "onLivingUpdate": "Lnet/minecraft/entity/EntityLivingBase;func_70636_d()V"
+    },
+    "op/wawa/opacketfix/mixins/MixinNetworkManagerChInit": {
+      "net.minecraft.network.NetworkManager$5": "net/minecraft/network/NetworkManager$5"
+    },
+    "op/wawa/opacketfix/mixins/MixinEntity": {
+      "getCollisionBorderSize": "Lnet/minecraft/entity/Entity;func_70111_Y()F"
+    },
+    "op/wawa/opacketfix/mixins/MixinEntityRenderer": {
+      "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V"
+    },
+    "op/wawa/opacketfix/mixins/MixinMinecraft": {
+      "Lnet/minecraft/client/multiplayer/PlayerControllerMP;attackEntity(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78764_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V",
+      "Lnet/minecraft/entity/EntityLivingBase;swingItem()V": "Lnet/minecraft/entity/EntityLivingBase;func_71038_i()V",
+      "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+      "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+      "Lnet/minecraft/client/Minecraft;checkGLError(Ljava/lang/String;)V": "Lnet/minecraft/client/Minecraft;func_71361_d(Ljava/lang/String;)V"
+    },
+    "op/wawa/opacketfix/mixins/MixinGuiMultiplayer": {
+      "initGui": "Lnet/minecraft/client/gui/GuiMultiplayer;func_73866_w_()V"
+    }
+  },
+  "data": {
+    "notch": {
+      "op/wawa/opacketfix/mixins/MixinEntityLivingBase": {
+        "onLivingUpdate": "Lpr;m()V"
+      },
+      "op/wawa/opacketfix/mixins/MixinNetworkManagerChInit": {
+        "net.minecraft.network.NetworkManager$5": "ek$5"
+      },
+      "op/wawa/opacketfix/mixins/MixinEntity": {
+        "getCollisionBorderSize": "Lpk;ao()F"
+      },
+      "op/wawa/opacketfix/mixins/MixinEntityRenderer": {
+        "getMouseOver": "Lbfk;a(F)V"
+      },
+      "op/wawa/opacketfix/mixins/MixinMinecraft": {
+        "Lnet/minecraft/client/multiplayer/PlayerControllerMP;attackEntity(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V": "Lbda;a(Lwn;Lpk;)V",
+        "Lnet/minecraft/entity/EntityLivingBase;swingItem()V": "Lpr;bw()V",
+        "startGame": "Lave;am()V",
+        "clickMouse": "Lave;aw()V",
+        "Lnet/minecraft/client/Minecraft;checkGLError(Ljava/lang/String;)V": "Lave;b(Ljava/lang/String;)V"
+      },
+      "op/wawa/opacketfix/mixins/MixinGuiMultiplayer": {
+        "initGui": "Lazh;b()V"
+      }
+    },
+    "searge": {
+      "op/wawa/opacketfix/mixins/MixinEntityLivingBase": {
+        "onLivingUpdate": "Lnet/minecraft/entity/EntityLivingBase;func_70636_d()V"
+      },
+      "op/wawa/opacketfix/mixins/MixinNetworkManagerChInit": {
+        "net.minecraft.network.NetworkManager$5": "net/minecraft/network/NetworkManager$5"
+      },
+      "op/wawa/opacketfix/mixins/MixinEntity": {
+        "getCollisionBorderSize": "Lnet/minecraft/entity/Entity;func_70111_Y()F"
+      },
+      "op/wawa/opacketfix/mixins/MixinEntityRenderer": {
+        "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V"
+      },
+      "op/wawa/opacketfix/mixins/MixinMinecraft": {
+        "Lnet/minecraft/client/multiplayer/PlayerControllerMP;attackEntity(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78764_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V",
+        "Lnet/minecraft/entity/EntityLivingBase;swingItem()V": "Lnet/minecraft/entity/EntityLivingBase;func_71038_i()V",
+        "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+        "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+        "Lnet/minecraft/client/Minecraft;checkGLError(Ljava/lang/String;)V": "Lnet/minecraft/client/Minecraft;func_71361_d(Ljava/lang/String;)V"
+      },
+      "op/wawa/opacketfix/mixins/MixinGuiMultiplayer": {
+        "initGui": "Lnet/minecraft/client/gui/GuiMultiplayer;func_73866_w_()V"
+      }
+    }
+  }
+}

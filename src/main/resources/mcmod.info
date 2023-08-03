@@ -1,0 +1,16 @@
+[
+{
+  "modid": "opacketfix",
+  "name": "O Packet Fix",
+  "description": "Packet Fixer for HuaYuTing Server in Minecraft-1.8.9",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["WaWa"],
+  "credits": "Genshin Impact",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
