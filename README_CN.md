@@ -1,6 +1,8 @@
 # OPacketFix
 一个基于Mixin的PacketFixer，支持Minecraft-1.8.9 Forge，用于中国服务器花雨庭。
 
+必须同时安装ViaForge模组.
+
 [English Readme.md link](README_CN.md)
 ## 使用源代码时的注意事项
 1. 使用此项目的源代码，即表示您接受我们使用的开源许可证，GNU AFFERO GENERAL PUBLIC LICENSE（AGPL v3），并且您必须遵守此许可证，且在未经授权的情况下披露您的源代码，就像我们一样。
